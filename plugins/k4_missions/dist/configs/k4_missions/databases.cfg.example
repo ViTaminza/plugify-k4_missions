@@ -1,0 +1,18 @@
+"Databases"
+{
+	"k4_missions"
+	{
+		// "mysql" shares the k4_missions table with a Metamod/SwiftlyS2 installation;
+		// "sqlite" uses a local file (no database server needed).
+		"driver"		"mysql"
+
+		"host"			"127.0.0.1"
+		"port"			"3306"
+		"user"			""
+		"pass"			""
+		"database"		"k4_missions"
+
+		// SQLite only: relative paths are resolved against the plugin data directory.
+		"sqlite_path"	"k4_missions.sqlite3"
+	}
+}

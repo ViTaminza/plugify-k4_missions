@@ -1,0 +1,22 @@
+{
+  "username": "K4-Missions",
+  "avatar_url": "https://i.imgur.com/sWeZBuf.png",
+  "embeds": [
+    {
+      "title": "Missions Reset ⚡",
+      "color": 15158332,
+      "fields": [
+        {
+          "name": "Reset Type",
+          "value": "{reset_mode}",
+          "inline": true
+        },
+        {
+          "name": "Next Reset",
+          "value": "{next_reset}",
+          "inline": true
+        }
+      ]
+    }
+  ]
+}

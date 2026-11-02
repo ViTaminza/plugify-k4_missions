@@ -1,0 +1,15 @@
+{
+  "K4Missions": {
+    "DatabaseConnection": "host",
+    "MissionCommands": ["mission", "missions"],
+    "VipNameDomain": null,
+    "MinimumPlayers": 4,
+    "MissionAmountNormal": 1,
+    "MissionAmountVip": 3,
+    "VipFlags": ["any.vip.flag"],
+    "EventDebugLogs": false,
+    "AllowProgressDuringWarmup": false,
+    "ResetMode": "Daily",
+    "WebhookUrl": ""
+  }
+}

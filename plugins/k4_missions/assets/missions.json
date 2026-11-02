@@ -1,0 +1,104 @@
+[
+  {
+    "Event": "EventPlayerDeath",
+    "Target": "Attacker",
+    "Amount": 10,
+    "RewardCommands": ["sw_givecredits {steamid64} 30"],
+    "RewardPhrase": "30 Credits",
+    "Phrase": "[SUPERVIP] Kill 10 players on de_dust2 (NORMAL)",
+    "Flag": "vipcore.supervip",
+    "MapName": "de_dust2"
+  },
+  {
+    "Event": "EventPlayerDeath",
+    "Target": "Attacker",
+    "Amount": 25,
+    "RewardCommands": ["sw_givecredits {steamid64} 75"],
+    "RewardPhrase": "75 Credits",
+    "Phrase": "Kill 25 players (HARD)"
+  },
+  {
+    "Event": "EventPlayerDeath",
+    "EventProperties": {
+      "Weapon": "ak47",
+      "Headshot": true
+    },
+    "Target": "Attacker",
+    "Amount": 10,
+    "RewardCommands": ["sw_givecredits {steamid64} 50"],
+    "RewardPhrase": "50 Credits",
+    "Phrase": "Kill 10 with AK47 headshots"
+  },
+  {
+    "Event": "EventRoundMvp",
+    "Target": "Userid",
+    "Amount": 3,
+    "RewardCommands": ["sw_givecredits {steamid64} 50"],
+    "RewardPhrase": "50 Credits",
+    "Phrase": "Get 3 MVP awards (NORMAL)"
+  },
+  {
+    "Event": "EventRoundMvp",
+    "Target": "Userid",
+    "Amount": 5,
+    "RewardCommands": ["sw_givecredits {steamid64} 100"],
+    "RewardPhrase": "100 Credits",
+    "Phrase": "Get 5 MVP awards (HARD)"
+  },
+  {
+    "Event": "EventBombPlanted",
+    "Target": "Userid",
+    "Amount": 3,
+    "RewardCommands": ["sw_givecredits {steamid64} 20"],
+    "RewardPhrase": "20 Credits",
+    "Phrase": "Plant 3 bombs (EASY)"
+  },
+  {
+    "Event": "EventBombDefused",
+    "Target": "Userid",
+    "Amount": 3,
+    "RewardCommands": ["sw_givecredits {steamid64} 40"],
+    "RewardPhrase": "40 Credits",
+    "Phrase": "Defuse 3 bombs (NORMAL)"
+  },
+  {
+    "Event": "EventHostageRescued",
+    "Target": "Userid",
+    "Amount": 5,
+    "RewardCommands": ["sw_givecredits {steamid64} 50"],
+    "RewardPhrase": "50 Credits",
+    "Phrase": "Rescue 5 hostages (NORMAL)"
+  },
+  {
+    "Event": "EventPlayerDeath",
+    "Target": "Assister",
+    "Amount": 10,
+    "RewardCommands": ["sw_givecredits {steamid64} 20"],
+    "RewardPhrase": "20 Credits",
+    "Phrase": "Assist in 10 kills (EASY)"
+  },
+  {
+    "Event": "PlayTime",
+    "Target": "Userid",
+    "Amount": 30,
+    "RewardCommands": ["sw_givecredits {steamid64} 60"],
+    "RewardPhrase": "60 Credits",
+    "Phrase": "Play 30 minutes on the server"
+  },
+  {
+    "Event": "EventRoundEnd",
+    "Target": "winner",
+    "Amount": 5,
+    "RewardCommands": ["sw_givecredits {steamid64} 25"],
+    "RewardPhrase": "25 Credits",
+    "Phrase": "Win 5 rounds (EASY)"
+  },
+  {
+    "Event": "EventGrenadeThrown",
+    "Target": "Userid",
+    "Amount": 15,
+    "RewardCommands": ["sw_givecredits {steamid64} 15"],
+    "RewardPhrase": "15 Credits",
+    "Phrase": "Throw 15 grenades (EASY)"
+  }
+]

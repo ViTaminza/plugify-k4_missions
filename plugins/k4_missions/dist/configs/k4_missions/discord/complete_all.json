@@ -1,0 +1,11 @@
+{
+  "username": "K4-Missions",
+  "avatar_url": "https://i.imgur.com/sWeZBuf.png",
+  "embeds": [
+    {
+      "title": "All Missions Completed! 🏆",
+      "description": "{profile} has completed all {total_missions} missions!",
+      "color": 15844367
+    }
+  ]
+}

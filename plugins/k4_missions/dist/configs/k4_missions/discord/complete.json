@@ -1,0 +1,23 @@
+{
+  "username": "K4-Missions",
+  "avatar_url": "https://i.imgur.com/sWeZBuf.png",
+  "embeds": [
+    {
+      "title": "Mission Completed! 🎯",
+      "description": "{profile} completed a mission!",
+      "color": 5814783,
+      "fields": [
+        {
+          "name": "Mission",
+          "value": "{mission}",
+          "inline": true
+        },
+        {
+          "name": "Reward",
+          "value": "{reward}",
+          "inline": true
+        }
+      ]
+    }
+  ]
+}

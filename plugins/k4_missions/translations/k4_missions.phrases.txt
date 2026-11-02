@@ -1,0 +1,99 @@
+"Phrases"
+{
+	// The keys and texts of the original resources/translations/en.jsonc (v1.0.6). The only
+	// change is the colour markup: SwiftlyS2's [silver]/[lime]/[white]/[yellow]/[gold]/[lightred]
+	// tags became the cs2-menus {GRAY}/{LIME}/{WHITE}/{LIGHTOLIVE}/{LIGHTOLIVE}/{LIGHTRED} tags the
+	// plugin colourises for chat (and strips for the menu texts).
+	"k4.general.prefix"
+	{
+		"en"	"{GRAY}[ {LIME}K4-Missions {GRAY}]"
+	}
+
+	// Mission notifications
+	"k4.missions.new_mission"
+	{
+		"en"	"{GRAY}You have {LIME}{0} {GRAY}new missions! Use {LIME}!{1} {GRAY}to view them."
+	}
+
+	"k4.missions.complete_mission"
+	{
+		"en"	"{GRAY}You have completed {LIME}{0} {GRAY}mission and earned {LIME}{1}{GRAY}!"
+	}
+
+	"k4.missions.no_missions"
+	{
+		"en"	"No missions available"
+	}
+
+	"k4.missions.dailyreset"
+	{
+		"en"	"{LIGHTRED}A new day, new challenges! All your missions have been reset."
+	}
+
+	// Menu
+	"k4.missions.menu.title"
+	{
+		"en"	"Missions"
+	}
+
+	"k4.missions.menu.mission"
+	{
+		"en"	"Mission #{0}"
+	}
+
+	"k4.missions.menu.playerlimit"
+	{
+		"en"	"Need {0} players to progress"
+	}
+
+	"k4.missions.menu.vip_locked"
+	{
+		"en"	"VIP Only"
+	}
+
+	"k4.missions.menu.reset.map"
+	{
+		"en"	"Resets on map change"
+	}
+
+	"k4.missions.menu.reset.instant"
+	{
+		"en"	"New mission on completion"
+	}
+
+	"k4.missions.menu.reset.time"
+	{
+		"en"	"Resets in {0}h {1}m"
+	}
+
+	"k4.missions.menu.reset.days"
+	{
+		"en"	"Resets in {0}d {1}h {2}m"
+	}
+
+	// Chat Details
+	"k4.missions.detail.header"
+	{
+		"en"	"{LIME}--- Mission #{0} ---"
+	}
+
+	"k4.missions.detail.task"
+	{
+		"en"	"{GRAY}Task: {WHITE}{0}"
+	}
+
+	"k4.missions.detail.progress"
+	{
+		"en"	"{GRAY}Progress: {LIGHTOLIVE}{0}{GRAY}/{LIME}{1}"
+	}
+
+	"k4.missions.detail.completed"
+	{
+		"en"	"{LIME}✓ Completed!"
+	}
+
+	"k4.missions.detail.reward"
+	{
+		"en"	"{GRAY}Reward: {LIGHTOLIVE}{0}"
+	}
+}
